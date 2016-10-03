@@ -1,0 +1,28 @@
+{
+    "name": "inpassor/yii2-realplexor",
+    "description": "Realplexor application component for the Yii 2 framework",
+    "keywords": [
+        "yii2",
+        "dklab_realplexor",
+        "realplexor",
+        "comet",
+        "long",
+        "polling"
+    ],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Inpassor",
+            "email": "inpassor@yandex.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "inpassor\\realplexor\\": ""
+        }
+    }
+}
