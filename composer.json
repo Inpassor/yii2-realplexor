@@ -1,6 +1,6 @@
 {
     "name": "inpassor/yii2-realplexor",
-    "description": "Realplexor application component for the Yii 2 framework",
+    "description": "Realplexor extension for the Yii 2 framework",
     "keywords": [
         "yii2",
         "dklab_realplexor",
