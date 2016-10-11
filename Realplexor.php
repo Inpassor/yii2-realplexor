@@ -24,11 +24,6 @@ class Realplexor extends \yii\base\Component
     /**
      * @var string
      */
-    public $identifier = 'uid';
-
-    /**
-     * @var string
-     */
     public $host = null;
 
     /**
@@ -216,7 +211,7 @@ class Realplexor extends \yii\base\Component
         $data = "POST / HTTP/1.1\r\n"
             . 'Host: ' . $this->host . "\r\n"
             . 'Content-Length: ' . mb_strlen($body, 'UTF-8') . "\r\n"
-            . 'X-Realplexor: ' . $this->identifier . '='
+            . 'X-Realplexor: identifier='
             . (($this->login && $this->password) ? $this->login . ':' . $this->password . '@' : '')
             . ($identifier ? $identifier : '')
             . "\r\n"

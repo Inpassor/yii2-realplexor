@@ -35,7 +35,6 @@ There are few more parameters that available to configure:
 Parameter | Description
 --- | ---
 **namespace** |
-**identifier** |
 **login** |
 **password** |
 **timeout** |
