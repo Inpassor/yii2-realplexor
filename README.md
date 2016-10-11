@@ -5,15 +5,13 @@ Author: Inpassor <inpassor@yandex.com>
 
 Link: https://github.com/Inpassor/yii2-realplexor
 
-This extension implements Dklab_Realplexor transport. It contains Yii 2 application
-component for server-side interaction with Dklab_Realplexor server, and asset
-for client-side.
+This extension implements Dklab_Realplexor transport.
 
 Link: https://github.com/DmitryKoterov/dklab_realplexor
 
 Link: http://dklab.ru/lib/dklab_realplexor/
 
-### Install
+## Installation
 
 1) Add package to your project using composer:
 ```
@@ -26,14 +24,21 @@ composer require inpassor/yii2-realplexor
         ...
         'realplexor' => [
             'class' => 'inpassor\realplexor\Realplexor',
-            'namespace' => '',
             'host' => 'rpl.yourdomain.com',
             'port' => 80,
         ],
     ],
 ```
+The example above shows only the required parameters.
+There are few more parameters that available to configure:
+
+@var string $namespace
+@var string $identifier
+@var string $login
+@var string $password
+@var string $timeout
 
 
-### Use
+## Usage
 
 Yii::$app->realplexor

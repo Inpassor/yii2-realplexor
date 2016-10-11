@@ -8,7 +8,7 @@
  * @author Inpassor <inpassor@yandex.com>
  * @link https://github.com/Inpassor/yii2-realplexor
  *
- * @version 0.1.1 (2016.10.10)
+ * @version 0.1.1 (2016.10.11)
  */
 
 namespace inpassor\realplexor;
