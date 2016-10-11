@@ -32,11 +32,13 @@ composer require inpassor/yii2-realplexor
 The example above shows only the required parameters.
 There are few more parameters that available to configure:
 
-@var string $namespace
-@var string $identifier
-@var string $login
-@var string $password
-@var string $timeout
+Parameter | Description
+--- | ---
+**namespace** |
+**identifier** |
+**login** |
+**password** |
+**timeout** |
 
 
 ## Usage
