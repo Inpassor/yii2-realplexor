@@ -21,7 +21,7 @@
         "yiisoft/yii2": "*",
         "bower-asset/inpassor-jquery-common": "*",
         "bower-asset/inpassor-jquery-realplexor": "*",
-        "inpassor/assets": "*"
+        "inpassor/yii2-assets": "*"
     },
     "autoload": {
         "psr-4": {
