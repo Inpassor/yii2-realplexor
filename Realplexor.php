@@ -8,7 +8,7 @@
  * @author Inpassor <inpassor@yandex.com>
  * @link https://github.com/Inpassor/yii2-realplexor
  *
- * @version 0.1.1 (2016.10.11)
+ * @version 0.1.2 (2016.10.12)
  */
 
 namespace inpassor\realplexor;
@@ -19,17 +19,17 @@ class Realplexor extends \yii\base\Component
     /**
      * @var string
      */
-    public $namespace = '';
-
-    /**
-     * @var string
-     */
-    public $host = null;
+    public $host = '127.0.0.1';
 
     /**
      * @var int
      */
-    public $port = null;
+    public $port = 10010;
+
+    /**
+     * @var string
+     */
+    public $namespace = '';
 
     /**
      * @var string
@@ -268,4 +268,8 @@ class Realplexor extends \yii\base\Component
         return $result;
     }
 
+}
+
+class RealplexorException extends \Exception
+{
 }
