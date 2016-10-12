@@ -19,7 +19,9 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/inpassor-jquery-realplexor": "*"
+        "bower-asset/inpassor-jquery-common": "*",
+        "bower-asset/inpassor-jquery-realplexor": "*",
+        "inpassor/assets": "*"
     },
     "autoload": {
         "psr-4": {
