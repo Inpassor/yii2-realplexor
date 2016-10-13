@@ -3,13 +3,14 @@ Realplexor extension for the Yii 2 framework
 
 Author: Inpassor <inpassor@yandex.com>
 
-Link: https://github.com/Inpassor/yii2-realplexor
+GitHub repository: https://github.com/Inpassor/yii2-realplexor
 
-This extension implements Dklab_Realplexor transport.
+This library implements
+[Dklab_Realplexor](https://github.com/DmitryKoterov/dklab_realplexor)
+PHP API.
 
-Link: https://github.com/DmitryKoterov/dklab_realplexor
-
-Link: http://dklab.ru/lib/dklab_realplexor/
+Dklab_Realplexor is comet server which handles 1000000+ parallel
+browser connections.
 
 ## Installation
 
@@ -47,5 +48,5 @@ Yii::$app->realplexor
 ```
 
 To implement Realplexor client-side use \inpassor\assets\JqueryRealplexor
-asset, that refers to bower package inpassor-jquery-realplexor :
-[Realplexor client-side library](https://github.com/Inpassor/yii2-realplexor)
+asset, that refers to bower package
+[inpassor-jquery-realplexor](https://github.com/Inpassor/jquery-realplexor)
