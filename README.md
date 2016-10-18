@@ -30,15 +30,14 @@ composer require inpassor/yii2-realplexor
 ```
 There are several parameters that available to configure:
 
-Parameter | Description
---- | ---
-**host** | Default: 127.0.0.1
-**port** | Default: 10010
-**namespace** | Default: ''
-**login** | Default: ''
-**password** | Default: ''
-**timeout** | Default: 5
-
+Parameter | Type | Description
+--- | --- | ---
+host | string | The server host. Default: 127.0.0.1
+port | integer | The connection port. Default: 10010
+namespace | string | Namespace to use. Default: ''
+login | string | Login for connection (if the server need it). Default: ''
+password | string | Password for connection (if the server need it). Default: ''
+timeout | integer | The connection timeout, in seconds. Default: 5
 
 ## Usage
 
@@ -47,6 +46,12 @@ Use Realplexor transport as application component:
 Yii::$app->realplexor
 ```
 
+To get detailed information about properties and methods of the Realplexor
+application component, please read documentation for [Realplexor PHP API](https://github.com/Inpassor/realplexor).
+
+## Client-side
+
 To implement Realplexor client-side use \inpassor\assets\JqueryRealplexor
-asset, that refers to bower package
+asset (it included in the dependancies for this package, so just use it),
+that refers to bower package
 [inpassor-jquery-realplexor](https://github.com/Inpassor/jquery-realplexor)
