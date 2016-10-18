@@ -15,5 +15,5 @@ namespace inpassor\realplexor;
 
 class Realplexor extends \yii\base\Component
 {
-    use inpassor\realplexor\RealplexorAPI;
+    use \inpassor\realplexor\RealplexorAPI;
 }
