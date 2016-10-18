@@ -19,6 +19,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
+        "inpassor/realplexor": "*",
         "bower-asset/inpassor-jquery-common": "*",
         "bower-asset/inpassor-jquery-realplexor": "*",
         "inpassor/yii2-assets": "*"
