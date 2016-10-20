@@ -1,6 +1,10 @@
 Realplexor extension for the Yii 2 framework
 ============================================
 
+[![Latest Stable Version](https://poser.pugx.org/inpassor/yii2-realplexor/version)](https://packagist.org/packages/inpassor/yii2-realplexor)
+[![Total Downloads](https://poser.pugx.org/inpassor/yii2-realplexor/downloads)](https://packagist.org/packages/inpassor/yii2-realplexor)
+[![License](https://poser.pugx.org/inpassor/yii2-realplexor/license)](https://packagist.org/packages/inpassor/yii2-realplexor)
+
 Author: Inpassor <inpassor@yandex.com>
 
 GitHub repository: https://github.com/Inpassor/yii2-realplexor
